@@ -2,8 +2,8 @@ fx_version 'cerulean'
 game 'gta5'
 lua54 'yes'
 
-name "lab-CreateMafia"
-description "Create Mafia"
+name "lab-MafiaMenu"
+description "Ogranisation Menu"
 author "Dogo#1950"
 version "1.0.0"
 
@@ -20,9 +20,10 @@ server_scripts {
 	'server/*.lua'
 }
 
-export 'getType'
-
-server_export 'getJobType'
+server_export 'getScore'
+server_export 'setScore'
+server_export 'giveScore'
+server_export 'removeScore'
 
 files {
 	'web/ui.html',
@@ -34,8 +35,3 @@ files {
 }
 
 ui_page 'web/ui.html'
-
-escrow_ignore {
-	'shared/*.lua',
-	'client/main.lua'
-}
