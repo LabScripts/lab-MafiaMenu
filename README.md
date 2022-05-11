@@ -15,8 +15,9 @@ An organisation panel for lab-CreateMafia, including boss actions and leaderboar
 **Installation:**
 
 1) Configure the script carefully!
-2) Run the SQL file.
-3) Ensure it AFTER lab-CreateMafia
+2) Run the SQL file. (If you have used lab-TopCriminals previously, skip this step.)
+3) Remove lab-TopCriminals
+4) Ensure it AFTER lab-CreateMafia
 
 **Preview:**
 You can check it out in the following video, after the lab-CreateMafia script presentation.
