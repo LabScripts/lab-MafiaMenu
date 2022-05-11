@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="styles.css">
+		<script src="https://kit.fontawesome.com/58fa6dc5d0.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<video autoplay muted loop id="myVideo">
+			<source src="https://static.vecteezy.com/system/resources/previews/003/060/065/mp4/flying-into-cyan-nebula-space-free-video.mp4" type="video/mp4">
+		</video>
+		<div class="Elements">
+			<!-- <div class="war_dates"></div> -->
+			<h3>BLACK<span style="color:#ff0037">MARKET</span><br>REPUTATION<hr><span style="color:#ff0037;text-shadow: 0 0 15px #ff0037;">1500</span>XP</h3>
+			<h2>CRIMINAL<br>TEAM <span style="color:#ff0037">SCORE</span><hr><span style="color:#ff0037;text-shadow: 0 0 15px #ff0037;">25000</span> POINTS</h2>
+			<div class="recruit"><h1>RECRUIT<br>MEMBERS</h1></div>
+			<div class="manage" onclick="openMembers()"><h1>MANAGE<br>YOUR MEMBERS</h1></div>
+			<div class="top" onclick="openLeaderboard()"><h1>TOP<br>CRIMINALS</h1></div>
+			<div class="hideout"><h1>SET YOUR<br>HIDEOUT</h1></div>
+			<div class="close">CLOSE</div>
+		</div>
+		<div class="leaderboard">
+			<h2>TOP CRIMINALS</h2>
+			<div class="table-holder" style="overflow:auto;">
+				<table style="width:100%;"><tr>
+				</tr></table>
+			</div>
+			<h1 class="back" onclick="Back()">BACK</h1>
+		</div>
+
+		<div class="members">
+			<h2>MANAGE YOUR MEMBERS</h2>
+			<div class="members-holder" style="overflow:auto;">
+
+			</div>
+			<h1 class="back" onclick="Back()">BACK</h1>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="scripts.js"></script>
+	</body>
+</html>
