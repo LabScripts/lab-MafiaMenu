@@ -1,1 +1,0 @@
-ALTER TABLE `jobs` ADD `type` VARCHAR(50) NOT NULL DEFAULT 'normal' AFTER `label`;
