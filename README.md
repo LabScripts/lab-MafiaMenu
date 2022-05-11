@@ -1,5 +1,8 @@
 # lab-MafiaMenu
 
+![image](https://user-images.githubusercontent.com/97763126/167844521-b6126054-6337-477b-be4c-cb1d982c19ae.png)
+
+
 An organisation panel for lab-CreateMafia, including boss actions and leaderboard.
 
 
