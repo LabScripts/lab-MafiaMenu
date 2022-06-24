@@ -11,14 +11,14 @@ Get a jobs score:
 Set a jobs score:
     local job_name = 'ballas'       -- The name of the job
     local amount = 10               -- The amount of score
-    local score = exports['lab-MafiaMenu']:setScore(job_name, amount)
+    exports['lab-MafiaMenu']:setScore(job_name, amount)
 Give score to a job:
     local job_name = 'ballas'       -- The name of the job
     local amount = 10               -- The amount of score
-    local score = exports['lab-MafiaMenu']:giveScore(job_name, amount)
+    exports['lab-MafiaMenu']:giveScore(job_name, amount)
 Remove score from a job:
     local job_name = 'ballas'       -- The name of the job
     local amount = 10               -- The amount of score
-    local score = exports['lab-MafiaMenu']:removeScore(job_name, amount)
+    exports['lab-MafiaMenu']:removeScore(job_name, amount)
     
 ]]
